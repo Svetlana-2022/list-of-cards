@@ -35,7 +35,7 @@ function Card({ card, onCardClick }) {
     return (
         
             <li className="card">
-                <button type="button" class="card__trash" onClick={(e)=>handleCardDeleteClick(e)}></button>
+                <button type="button" className="card__trash" onClick={(e)=>handleCardDeleteClick(e)}></button>
                 <Link to="/image"  onClick={()=>handleClick()}>
                     <img className="card__img" src={newCard.image} alt='cat'/>
                 </Link>
