@@ -1,0 +1,12 @@
+.content {
+    max-inline-size: 100%;
+    padding-inline: 50px;
+    padding-block: 70px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 445px) {
+    .content {
+        padding-inline: 10px;
+    }
+}

@@ -1,0 +1,50 @@
+.place {
+    inline-size: 100%;
+    block-size: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.place__card {
+    inline-size: calc(100% - 20px);
+    padding-inline: 50px;
+    padding-block: 70px;
+}
+
+.place__img {
+    inline-size: 282px;
+    block-size: 282px;
+    margin-block-start: 30px;
+}
+
+.place__container {
+    inline-size: 100%;
+    margin-block-end: 50px;
+}
+
+@media screen and (max-width: 445px) {
+    .place__card {
+        inline-size: 282px;
+        padding-inline: 10px;
+    }
+    .place__container {
+        inline-size: 282px;
+    }
+}
+
+.place__close-button {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    border: 2px solid rgb(41, 40, 40);
+    border-radius: 10px;
+}
+
+.place__close-button:hover {
+    opacity: 0.6;
+}
+

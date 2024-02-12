@@ -1,0 +1,10 @@
+body { 
+  margin: 0 auto;
+  max-inline-size: 1440px;
+  inline-size: 100%;
+  background-color: rgb(153, 148, 148);
+}
+.App {
+inline-size: 100%;
+margin: auto;
+}

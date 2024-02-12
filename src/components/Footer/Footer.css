@@ -1,0 +1,21 @@
+.footer {
+    inline-size: 100%;
+    block-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(153, 148, 148);
+}
+
+.footer__logo {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #222222;
+}
